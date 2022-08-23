@@ -1,0 +1,376 @@
+/* POPPINS FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F5F5;
+    width: 100vw;
+}
+
+header{
+    height: 500px;
+    background-color: #3400FF;
+}
+
+nav{
+    float: right;
+    margin-right: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.nav-item{
+    margin-right: 20px;
+    color: white;
+    
+}
+
+.nav-item-active{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #5A31FC;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.logo{
+    margin: 40px;
+}
+
+.header-text{
+    color: white;
+    margin-left: 60px;
+    margin-top: 50px;
+    float: left;
+    font-size: medium;
+}
+
+.header-image{
+    float: right;
+}
+
+.companies{
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.company-items{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Righteous', cursive;
+}
+
+.api-heading{
+    margin-left: 90px;
+    margin-top: 100px;
+    font-size: 35px;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.cards{
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards i{
+    background-color: #fff;
+    color: #5a31dc;
+    font-size: 40px;
+}
+
+.card{
+    width: 20%;
+    height: 250px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.card-active{
+    width: 20%;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-logo{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.card-head{
+    color: black;
+    margin-left: 30px;
+}
+
+.card-head-active{
+    color: #5A31FC;
+    margin-left: 30px;
+}
+
+.card-body{
+    color: black;
+    margin-left: 30px;
+    font-size: small;
+}
+
+.blog-heading{
+    margin-top: 80px;
+    margin-left: 90px;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    
+}
+
+.blog-all-articles{
+    position: absolute;
+    right: 60px;
+    bottom: 0;
+    color: #643DFC;
+  }
+
+.blog-cards{
+    margin-top: 40px;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: row;
+    height: 286px;
+}
+
+.blog-card{ 
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    background-color: white;
+    border-radius: 70px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-right: 50px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.blog-content{
+    width: 90%;
+    float: right;
+    padding: 10px;
+}
+.blog-image{
+    float: left;
+}
+.blog-bottom {
+    right: 8%;
+    bottom: -4vh;
+    margin-right: 100px;
+    position: absolute;
+}
+.blog-card-bottom-image {
+    margin-top: 20px;
+}
+
+.blog-content h6{
+    color: #643DFC;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  
+.blog-content h3{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.blog-content p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 9px;
+    line-height: 1;
+    font-weight: 500;
+}
+.blog-author{
+    font-size: x-small;
+    font-weight: bold;
+    position: absolute;
+    bottom: -10px;
+    left: 380px;
+    margin-bottom: 18px;
+}
+
+/* FAQ section */
+
+.faq-section{
+    display: flex;
+    justify-content: space-between;
+    height: 325px;
+    background-color: #E9EDFF;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+}
+
+.faq-image{
+    width: 40%;
+    height: 300px;
+    float: right;
+}
+.faq-content{
+    float: left;
+    margin-left: 90px;
+}
+.faq-image img{
+    position: relative;
+    right: 0;
+}
+.faq-content h2{
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.faq-content h4{
+    font-size: smaller;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.faq-content .question{
+    font-size: 15px;
+}
+
+.faq-content button{
+    background: #5A31FC;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.download-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.download-content h1{
+    font-weight: bolder;
+    margin-left: 80px;
+}
+.download-content span{
+    font-weight: lighter;
+}
+
+form {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin-right: 80px;
+    height: 55px;
+    border: none;
+    outline:none;
+    border-radius: 25px;
+    padding:2px;
+    background-color: #E9EDFF;
+}
+
+input {
+    flex-grow:2;
+    border:none;
+    width: 400px;
+    background-color: #E9EDFF;
+    padding-left: 30px;
+    border-radius: 25px;
+
+}
+form button{
+    outline: none;
+    border: none;
+    background-color: #5A31FC;
+    color:#fff;
+    width: 150px;
+    height: 90%;
+    border-radius: 30px;
+}
+
+
+.footer-section{
+    height: 225px;
+    background-color: #3C0AFE;
+}
+
+.footer-left{
+    float: left;
+}
+
+.footer-logo{
+    margin-top: 50px;
+    padding-left: 90px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: 40px;
+    list-style-type: none;
+    color: white;
+}
+
+.list-items{
+    padding:0px 25px;
+    font-size: x-small;
+    border-right: 1px solid #fff;
+}
+#no-border{
+    border: none;
+}
+
+.footer-right{
+    float: right;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.logos-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: white;
+    margin-left: 10px;
+    margin-top: 120px;
+    margin-right: -200px;
+}
+
+.footer-logos{
+    margin-top: 50px;
+    margin-left: 20px;
+} 
+
+/* 
+Time taken: 8hours
+learnings: flexbox, positions, styling form, 
+*/
