@@ -79,7 +79,6 @@ Source Code :
   - ✔ CSS Positioning
   - ✔ Flexbox
   - ✔ Background property 
-  - ✔ Gradient
   - ✔ Box-shadow
  - ✔ Git and Github
 <!-- NOTE -->
