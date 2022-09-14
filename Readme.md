@@ -36,7 +36,17 @@
 
 Developer Landing Page using Pure HTML & CSS.
 
-![Project-9: Web Developer Landing page](https://github.com/Shivanand0297/Project-9-Fullstack-Javascript-Web-Development-Bootcamp/blob/Project-9/9.png)
+#### For Large Screens.
+
+![Project-9: Web Developer Landing page](https://github.com/Shivanand0297/Project-9-Fullstack-Javascript-Web-Development-Bootcamp/blob/Project-9/screen-shots/new/large.png)
+
+#### For Tablets Screens.
+
+![tablet-screens](https://github.com/Shivanand0297/Project-9-Fullstack-Javascript-Web-Development-Bootcamp/blob/Project-9/screen-shots/new/tablet.png)
+
+#### For Mobile Screens.
+
+![mobile-screens](https://github.com/Shivanand0297/Project-9-Fullstack-Javascript-Web-Development-Bootcamp/blob/Project-9/screen-shots/new/mobile.png)
 
 
 
